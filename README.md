@@ -3,7 +3,7 @@
 
 **To display the form use: [http://127.0.0.1:8000/](http://127.0.0.1:8000/)**
 
-**To display the output list use: [http://127.0.0.1:8000/](http://127.0.0.1:8000/contribution-list/)**
+**To display the output list use: [http://127.0.0.1:8000/contribution-list/](http://127.0.0.1:8000/contribution-list/)**
 
 1. **Open the Codespace Terminal:**
 
