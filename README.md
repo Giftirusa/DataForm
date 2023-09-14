@@ -1,7 +1,10 @@
 # DataForm
 **The Project has three pages**
+
 **To display the form use: [http://127.0.0.1:8000/](http://127.0.0.1:8000/)**
+
 **To display the output list use: [http://127.0.0.1:8000/](http://127.0.0.1:8000/contribution-list/)**
+
 1. **Open the Codespace Terminal:**
 
    In your Codespace, open the integrated terminal from the "Terminal" menu.
