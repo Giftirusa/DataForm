@@ -46,6 +46,6 @@
    ```bash
    python manage.py runserver
    ```
-7. **Insert an Image:**
+7. **Output**
 
-    ![UI Image](UI.PNG)
+    <img src="UI.png">
