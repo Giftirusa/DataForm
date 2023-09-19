@@ -2,6 +2,8 @@
 from django.shortcuts import render, redirect
 from .forms import ContributionForm
 from .models import Contribution
+from django.http import JsonResponse
+from .serializers import ContributionSerializer
 
 
 def create_contribution(request):
@@ -23,3 +25,9 @@ def input_success(request):
 def contribution_list(request):
     contributions = Contribution.objects.all()
     return render(request, 'contribution_list.html', {'contributions': contributions})
+
+
+def contribution_data_as_json(request):
+    contributions = Contribution.objects.all()
+    serializer = ContributionSerializer(contributions, many=True)
+    return JsonResponse(serializer.data, safe=False)
